@@ -1,0 +1,29 @@
+/* Шапка на главной */
+.ad {background-image: url("../images/ris11.jpg"); height:270px; width: 900px; overflow: hidden; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;}
+.ad h1 {color: #000; line-height: 1.2; padding: 15px; margin-top: 0; font-family: "Times New Roman"; font-weight: bold; font-size: 40px; text-align: center}
+.ad p {color: #fff; padding: 25px; font-family: "Times New Roman"; font-weight: bold;}
+/* /Шапка на главной */
+/* Блоки (файл только для главной)*/
+.square {margin-top: 0px;}
+.square div{border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	background: #fff;
+	padding: 25px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.square p {margin-bottom: 10px; margin-top: 15px;}
+.square img {border: #000 solid 2px; margin: 25px 25px 0 0;}
+.square img:hover {border-color: #9c9c9c;}
+.square ul li {list-style-image: url("../images/check.gif"); margin: 0 0 20px 20px;}
+.box1 {float:left; margin-top: 30px}
+/* /Блоки */
+ hr {
+    border: none; /* Убираем границу */
+    background-color: #fff; /* Цвет линии */
+    color: #fff; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+	-moz-box-shadow: 0 0 5px #794932; /* Для Firefox */
+    -webkit-box-shadow: 0 0 5px #794932; /* Для Safari и Chrome */
+    box-shadow: 0 0 5px #794932; /* Параметры тени */
+   }	

@@ -1,0 +1,62 @@
+/* Дома, бани (перенести в отдельный файл) */
+.menu-bani {float: left; margin-left: 33px; margin-bottom: 30px; text-align: center}
+.menu-bani div {width: 350.5px;  border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+background: #794932; /* Для старых браузров */
+background: -moz-linear-gradient(top, #cbad91, #794932); /* Firefox 3.6+ */
+ /* Chrome 1-9, Safari 4-5 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#794932), color-stop(100%,#cbad91));
+   /* Chrome 10+, Safari 5.1+ */
+background: -webkit-linear-gradient(top, #cbad91, #794932);
+background: -o-linear-gradient(top, #cbad91, #794932); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cbad91, #794932); /* IE10 */
+background: linear-gradient(top, #cbad91, #794932); /* CSS3 */ 
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+border-collapse: collapse; border:none;
+	}
+.menu-bani a:first-child {padding:31px 0px 30px; color: #ffff9a; display: block; font-size: 21px; line-height: 1px; font-weight: bold; text-decoration: none;}
+.menu-bani a:first-child:hover {border-radius:10px 10px 10px 10px; -webkit-border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px; -khtml-border-radius:10px 10px 10px 10px;
+background: -moz-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%, rgba(140,51,16,0.68) 50%, rgba(117,34,1,0.57) 67%, rgba(121,73,50,0.35) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(203,173,145,1)), color-stop(50%,rgba(140,51,16,0.68)), color-stop(67%,rgba(117,34,1,0.57)), color-stop(100%,rgba(121,73,50,0.35))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbad91', endColorstr='#59794932',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+.content img {border-style: none} /* Для IE */
+.block1 {float:left; height: 383px; width: 350px; margin-bottom: 70px;}
+.block1 div {height: 263px; margin-bottom: 30px;}
+.block1 dl {height: 90px;}
+.block2 {float:right; height: 383px; width: 350px; margin-bottom: 70px;}
+.block2 div {height: 263px; margin-bottom: 30px;}
+.block2 dl {height: 90px;}
+.block1 div, .block2 div, .block1 dl, .block2 dl {border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	background: #fff;
+	border: #cbad91 solid 2px;
+	cursor:pointer;
+	text-align: center;
+	overflow: hidden;
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.block1 dl a, .block2 dl a {text-decoration: underline; color: #000}
+.block1 dl a:hover, .block2 dl a:hover {color: #000; text-decoration: none}
+.square .block {float: left; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	background: #fff;
+	padding: 25px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	margin-bottom: 30px;
+}
+.square dl dt {margin-top: 5px; font-size: 26px; color: #4d4d4d}
+.square .size {line-height: 29px; font-size: 18px;}
+.square .cost {font-size: 28px;}
+.action {position: absolute; margin-left: 230px; margin-top: -50px;}
+
+.alxMultiActiveLinkAres_hover{border-color: #794932 !important;}
+/* /Дома, бани box-shadow:0 0 5px 5px #f4b006 !important;
+ 	background:#9c9c9c !important;*/

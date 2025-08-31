@@ -1,0 +1,147 @@
+html, body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, dd, dt, dl, table, tr, td, th, p, span, strong, small, a, img, form  {margin: 0px; padding: 0px;}
+body {font: normal 15px/24px Arial,Tahoma,Verdana,sans-serif; color: #000; background-image: url("../images/fon_summer.jpg"); background-repeat: no-repeat; background-position: 50% 0;  min-width: 1000px; position: relative; height: 100%;}
+table {font: normal 15px/24px Arial,Tahoma,Verdana,sans-serif; color: #000;}
+a {color: #000; text-decoration: none}
+a:link {color: #000; text-decoration: none}
+a:hover {text-decoration: underline}
+#wrap {height: 100%; position: relative; width: 900px; padding:0 20px; margin: 0 auto;}
+/* Menu */
+.header {position:relative; height:92px;}
+	.menu {position:absolute; margin-top: 5px; width:100%; /* background: url("../images/menu.png") repeat-x #E5E5E5;*/ 
+background: rgb(242,248,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,248,252,1) 0%, rgba(194,232,249,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,248,252,1)), color-stop(100%,rgba(194,232,249,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(242,248,252,1) 0%,rgba(194,232,249,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(242,248,252,1) 0%,rgba(194,232,249,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(242,248,252,1) 0%,rgba(194,232,249,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(242,248,252,1) 0%,rgba(194,232,249,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f8fc', endColorstr='#c2e8f9',GradientType=0 ); /* IE6-9 */
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+	.menu table {width:100%; border-collapse: collapse; border:none; text-align:center;}
+	.menu td {}
+	.menu a {padding:24px 18px 24px; border-left: 1px solid #fcfcfc; border-right: 1px solid #9bcff2; color: #000; display: block; font-size: 24px; line-height: 28px; font-weight: bold; text-decoration: none;}
+	.ie6 .menu a {height: 31px;}
+	/*.menu a:hover, .menu a:active {background: #9c9c9c; color:#fff; border-color:#249dfb; text-shadow: #249dfb 0 0 25px;} */
+	.menu a:hover{
+background: rgb(242,248,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,248,252,1) 0%, rgba(123,210,247,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,248,252,1)), color-stop(100%,rgba(123,210,247,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(242,248,252,1) 0%,rgba(123,210,247,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(242,248,252,1) 0%,rgba(123,210,247,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(242,248,252,1) 0%,rgba(123,210,247,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(242,248,252,1) 0%,rgba(123,210,247,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f8fc', endColorstr='#7bd2f7',GradientType=0 ); /* IE6-9 */
+
+	}
+	.menu td:first-child a  {border-left:none;}
+	.menu td:last-child a {border-right:none;}
+	.menu td:first-child a:hover  {border-radius:10px 0 0 10px; -webkit-border-radius:10px 0 0 10px; -moz-border-radius:10px 0 0 10px; -khtml-border-radius:10px 0 0 10px;}
+	.menu td:last-child a:hover {border-radius:0 10px 10px 0; -webkit-border-radius:0 10px 10px 0; -moz-border-radius:0 10px 10px 0; -khtml-border-radius:0 10px 10px 0;}
+/* Шапка малая с контактами*/
+.header_bottom {float: right; width: 310px; height: 60px; background-image: url("../images/address_top.gif");}
+/* /Шапка малая с контактами*/
+
+/* Обратный звонок  left: 905px; top: 8px;* /
+
+/* Логотип 
+.logo {
+background-image: url("../images/logo3.png");
+width: 180px; height: 120px;
+ position: relative; right: 180px; bottom: 20px;
+}*/ 
+/* / Логотип */
+.button_callme {
+
+ position: relative; right: 175px; top: 50px;
+}
+.bblue_btn {
+background: rgb(254,252,234); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	font-weight: bold;
+  color: #000;
+  font-size: 18px;
+  padding: 20px 10px;
+  border: #cbad91 solid 2px;
+  text-decoration: none;
+  display:inline-block;
+  cursor:pointer;
+}
+.bblue_btn:hover {
+background: rgb(178,225,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(178,225,255,1)), color-stop(100%,rgba(102,182,252,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%); /* IE10+ */
+background: linear-gradient(45deg,  rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border: #000 solid 2px;
+
+  text-decoration: none;
+  color: #000;
+}
+/* /Обратный звонок*/
+
+/* contacts */
+.contacts {position:relative; 
+	margin: 0 0 10px 0;
+	background: #f9f9e0; /* f0f0f0 */
+	padding: 10px;
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */}
+.contacts div {float: left; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	background: #fff;
+	padding: 10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+/* /contacts */
+/* /Menu */
+.content {position:relative; min-height:700px; top: 20px;}
+.content h1 {font-size: 21px; color: #ffe8ce;}
+.content h1 a {text-decoration: underline; color: #ffe8ce}
+.content h1 a:hover {color: #fff; text-decoration: none}
+.square {
+	margin: 30px 0 70px 0;
+	background: #f9f9e0; /* f0f0f0 */
+	padding: 50px;
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.square a {text-decoration: underline; color: #FF8000}
+.square a:hover {color: #9d4f00; text-decoration: none}
+/* Копирайт */
+.copyrigh {height:120px;}
+.copyrigh .basic {background: #bfaf93; padding: 10px 0; height:90px; width: 900px;
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.copyrigh span {font-size: 10px; text-align: center; color: #5e4326;}
+.copyrigh a {color: #5e4326;}
+.copyrigh ul li {display: inline; list-style-type: none; margin-left: 25px;}
+.copyrigh address {float: right; margin-right: 25px;}
+.statistics {margin: 10px 0 0 25px;}
+/* /Копирайт */
+ /* p{text-indent: 1.5em;}  Отступ первой строки */
+#action {text-align: center; font-size: 25px; color: #ff0000}

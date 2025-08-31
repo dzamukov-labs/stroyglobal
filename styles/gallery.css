@@ -1,0 +1,29 @@
+.square {text-align: center;}
+.square img {border: #cbad91 solid 2px; margin-top: 25px;}
+.square img:hover {border-color: #794932;}
+.menu-galery {float: left; margin-left: 47px; margin-bottom: 40px; text-align: center;}
+.menu-galery div {width: 204px;  border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+background: #794932; /* Для старых браузров */
+background: -moz-linear-gradient(top, #cbad91, #794932); /* Firefox 3.6+ */
+ /* Chrome 1-9, Safari 4-5 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#794932), color-stop(100%,#cbad91));
+   /* Chrome 10+, Safari 5.1+ */
+background: -webkit-linear-gradient(top, #cbad91, #794932);
+background: -o-linear-gradient(top, #cbad91, #794932); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cbad91, #794932); /* IE10 */
+background: linear-gradient(top, #cbad91, #794932); /* CSS3 */ 
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+border-collapse: collapse; border:none;
+	}
+.menu-galery a:first-child {padding:31px 0px 30px; color: #ffff9a; display: block; font-size: 21px; line-height: 1px; font-weight: bold; text-decoration: none;}
+.menu-galery a:first-child:hover {border-radius:10px 10px 10px 10px; -webkit-border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px; -khtml-border-radius:10px 10px 10px 10px;
+background: -moz-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%, rgba(140,51,16,0.68) 50%, rgba(117,34,1,0.57) 67%, rgba(121,73,50,0.35) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(203,173,145,1)), color-stop(50%,rgba(140,51,16,0.68)), color-stop(67%,rgba(117,34,1,0.57)), color-stop(100%,rgba(121,73,50,0.35))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(203,173,145,1) 0%,rgba(140,51,16,0.68) 50%,rgba(117,34,1,0.57) 67%,rgba(121,73,50,0.35) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbad91', endColorstr='#59794932',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}

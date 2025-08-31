@@ -1,0 +1,54 @@
+/* Дома, бани отдельно */
+.poyas {margin-bottom: 15px}
+.poyas img {border: #000 solid 2px; margin: 10px 10px 0 0}
+.info {text-indent: 1.5em; margin: 15px; font-family: "Times New Roman"; font-size: 18px}
+.square ul {float: left; margin-top: 15px}
+.square ul li {list-style-image: url("../images/arrow.gif"); margin: 5px}
+.square ul li:first-child  {font-size: 20px; color: #FF8000}
+.tablebasic {}
+.tablebasic  table {background: #fff; border: solid 1px #ccc; border-collapse:collapse; width: 100%; float: left; margin-top: 35px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.tablebasic  table tr:nth-child(odd) {background: #ffffd3;}
+.tablebasic  table td{border: solid 1px #ccc; padding: 7px; text-align: center; width: 50%; font-size: 13px}
+.tablebasic-1 {}
+.tablebasic-1  table {background: #fff; border: solid 1px #ccc; border-collapse:collapse; height: 140px; width: 450px; float: left;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.tablebasic-1  table td{border: solid 1px #ccc;
+padding: 0 5px;
+text-align: left;
+}
+.cost {font-size: 25px;  color: #fff; padding: 5px; height: 25px; text-align: center;  width: 300px; float: right;
+background: rgb(255,48,25); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.stock {font-size: 20px; color: #fff; padding: 5px; height: 95px; text-align: center;  width: 300px; float: right;
+background: rgb(169,228,247); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(169,228,247,1)), color-stop(100%,rgba(15,180,231,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.stock a {text-decoration: underline; color: #ffff59}
+.vk_comments {float: left; margin-top: 15px}
+.vk_like {margin-bottom: 15px; text-align: center;}
