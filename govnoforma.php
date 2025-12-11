@@ -1,5 +1,5 @@
 <?php
-$to = 'info@stroyglobal.com, georgij-dzamukov@yandex.ru';
+$to = 'info@stroyglobal.com';
 if(isset($_POST['username'])){
 	$un = htmlspecialchars(@$_POST['username']);
 	$ue = htmlspecialchars(@$_POST['useremail']);
