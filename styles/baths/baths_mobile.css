@@ -1,0 +1,73 @@
+p {font-size: 13px;}
+.content img {border-style: none} /* Для IE */
+.square img {border: #cbad91 solid 2px; margin-top: 10px; margin-left: 30px;} /* cbad91 */
+.square img:hover {border-color: #794932;} /* 794932 */
+.tablebasic2018  table {background: #fff; border: #cbad91 solid 2px; border-collapse:collapse; width: 100%; float: left; margin-bottom: 20px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.tablebasic2018  table tr:nth-child(odd) {background: #ffffd3;}
+.tablebasic2018  table td{border: solid 1px #ccc; padding: 6px; text-align: center; width: 25%; font-size: 13px}
+
+.tablebasic  table {background: #fff; border: #cbad91 solid 2px; border-collapse:collapse; width: 100%; float: left; margin-bottom: 20px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.tablebasic  table tr:nth-child(odd) {background: #ffffd3;}
+.tablebasic  table td{border: solid 1px #ccc; padding: 6px; text-align: center; width: 50%; font-size: 13px}
+.block_bani {float:left; margin-bottom: 20px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	width: 750px;
+	padding: 25px;
+	background: #fff;
+	border: #cbad91 solid 2px;
+	overflow: hidden;
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.square .block {float: left; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	width: 700px;
+	background: #fff;
+	padding: 25px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	margin-bottom: 30px;
+}
+.square ul li {list-style-image: url("../../images/arrow.gif"); margin: 0 0 0 25px; font-size: 14px}
+.square h2 {font: normal 15px/24px Arial; margin-bottom: 5px; font-size: 27px; color: #000;}
+.square dl dt {margin-bottom: 5px; font-size: 27px; color: #000;}
+.square .description {line-height: 25px; font-size: 13px;}
+.square .cost {font-size: 25px;  color: #fff; margin-top: 10px; padding: 5px; height: 25px; text-align: center;  width: 700px;
+background: rgb(169,228,247); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(169,228,247,1)), color-stop(100%,rgba(15,180,231,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.action_prize {font-size: 15px; color: #fff; margin-top: 10px; padding: 5px; height: 25px; width: 700px;
+background: rgb(255,48,25); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,48,25,1) 0%, rgba(207,4,4,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,48,25,1)), color-stop(100%,rgba(207,4,4,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(255,48,25,1) 0%,rgba(207,4,4,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.action_prize a, .action_prize a:hover {color: #000}
+.action {position: absolute;  margin-left: 600px; margin-top: -80px;}
+.action img {border: none;}
+
+.vk_comments {float: left;}

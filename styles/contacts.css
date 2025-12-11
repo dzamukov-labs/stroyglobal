@@ -1,0 +1,24 @@
+.square ul li {list-style-image: url("../images/arrow.gif"); margin: 0 0 20px 20px}
+.square img {border: #9c9c9c solid 2px; margin: 25px 25px 0 0;}
+.square img:hover {border-color: #000;}
+#map {width: 600px; height: 450px; border: #000 solid 2px;}
+.tablebasic  table {background: #fff; border: #cbad91 solid 2px; border-collapse:collapse; width: 100%; float: left; margin-bottom: 20px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.tablebasic  table tr:nth-child(odd) {background: #ffffd3;}
+.tablebasic  table td{border: solid 1px #ccc; padding: 6px; text-align: left; width: 50%; font-size: 13px}
+
+
+
+form {padding:30px 10px 50px 30px; width: 400px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 2px 2px 20px #666; -moz-box-shadow: 2px 2px 20px #666; box-shadow: 2px 2px 20px #666; position: relative; background: #fff;}
+form div {}
+form .input /* Стили для класса input */ {
+    width: 300px; /* Ширна */
+    border: 1px solid #cbad91; /* Сплошная рамка вокруг шириной 1 пиксель */
+}
+form textarea /* Стили к тегу textarea */ {
+    width: 350px; /* Ширина */
+    border: 1px solid #cbad91; /* Сплошная рамка вокруг шириной 1 пиксель */
+}

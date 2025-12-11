@@ -1,0 +1,20 @@
+.square {text-align: center;}
+.square div {margin:0 auto; width: 700px;}
+.square img {border: #cbad91 solid 2px; margin: 10px;}
+.square img:hover {border-color: #794932;}
+.menu-galery {float: left; margin-left: 47px; margin-bottom: 40px; text-align: center;}
+.menu-galery div {width: 204px;  border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -khtml-border-radius:10px;
+background: #794932; /* Для старых браузров */
+background: -moz-linear-gradient(top, #cbad91, #794932); /* Firefox 3.6+ */
+ /* Chrome 1-9, Safari 4-5 */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#794932), color-stop(100%,#cbad91));
+   /* Chrome 10+, Safari 5.1+ */
+background: -webkit-linear-gradient(top, #cbad91, #794932);
+background: -o-linear-gradient(top, #cbad91, #794932); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cbad91, #794932); /* IE10 */
+background: linear-gradient(top, #cbad91, #794932); /* CSS3 */ 
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+border-collapse: collapse; border:none;
+	}

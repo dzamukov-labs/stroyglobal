@@ -1,0 +1,4 @@
+.square div {margin-bottom: 30px;}
+.content img {border-style: none} /* Для IE */
+.square img {border: #cbad91 solid 2px; margin-top: 10px; margin-left: 30px;}
+.square img:hover {border-color: #794932;}

@@ -1,0 +1,21 @@
+.square div{border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; -khtml-border-radius:2px;
+	background: #fff;
+	padding: 25px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.square p {margin-bottom: 10px}
+.square ol {margin-left: 30px}
+
+ hr {
+    border: none; /* Убираем границу */
+    background-color: #fff; /* Цвет линии */
+    color: #fff; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+		-moz-box-shadow: 0 0 5px #794932; /* Для Firefox */
+    -webkit-box-shadow: 0 0 5px #794932; /* Для Safari и Chrome */
+    box-shadow: 0 0 5px #794932; /* Параметры тени */
+   }	
+   
+.square ul li {list-style-image: url("../../images/arrow.gif"); margin: 0 0 5px 20px;}
