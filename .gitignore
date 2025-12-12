@@ -22,6 +22,22 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# CGI scripts (not needed for static site)
+# Development files
+*.log
+*.tmp
+*~
+.vscode/
+.idea/
+
+# CGI scripts and PHP files (not needed for static site on GitHub Pages)
 cgi-bin/
 *.cgi
+*.php
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Tools output
+tools/*.log

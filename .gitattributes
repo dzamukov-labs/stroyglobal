@@ -1,0 +1,25 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files
+*.htm text
+*.html text
+*.css text
+*.js text
+*.json text
+*.xml text
+*.txt text
+*.md text
+
+# Declare files that will always have CRLF line endings on checkout
+*.cgi text eol=crlf
+
+# Denote all files that are truly binary and should not be modified
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.doc binary
+*.docx binary
+
