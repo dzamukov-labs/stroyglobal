@@ -1,4 +1,6 @@
 # Конфигурация Jekyll для GitHub Pages
+# Примечание: файл .nojekyll отключает Jekyll полностью
+# Этот файл оставлен на случай, если понадобится включить Jekyll
 
 # Исключаем папки и файлы из обработки Jekyll
 exclude:
@@ -10,14 +12,14 @@ exclude:
   - seo-manifest.ndjson
   - "*.php"
   - "*.cgi"
+  - .nojekyll
 
 # Отключаем обработку некоторых плагинов, которые могут вызывать проблемы
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+plugins: []
 
 # Базовые настройки
 safe: true
 lsi: false
 incremental: false
+keep_files: []
 
