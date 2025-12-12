@@ -25,6 +25,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      - name: Prepare deployment directory
+        run: |
+          # Создаем чистую директорию для деплоя
+          mkdir -p _site
+          
+          # Копируем только нужные файлы и папки
+          cp -r *.htm *.html *.txt *.xml _site/ 2>/dev/null || true
+          cp -r bani/ doma.htm fancybox/ favicon.ico galereya/ images/ js/ kontakti.htm production.htm stati/ styles/ _site/ 2>/dev/null || true
+          cp CNAME _site/ 2>/dev/null || true
+          cp .nojekyll _site/ 2>/dev/null || true
+          cp *.js _site/ 2>/dev/null || true
+          
+          # Показываем что получилось
+          echo "Deployment directory contents:"
+          ls -la _site/
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -32,7 +48,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
   # Deployment job
   deploy:
