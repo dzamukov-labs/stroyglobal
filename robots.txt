@@ -1,8 +1,8 @@
 User-agent: Yandex
 Allow: /
-Sitemap: http://stroyglobal.com/sitemap.xml
+Sitemap: https://stroyglobal.com/sitemap.xml
 Host: stroyglobal.com
 
 User-agent: *
 Allow: /
-Sitemap: http://stroyglobal.com/sitemap.xml
+Sitemap: https://stroyglobal.com/sitemap.xml
