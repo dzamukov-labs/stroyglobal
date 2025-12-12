@@ -22,3 +22,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# CGI scripts (not needed for static site)
+cgi-bin/
+*.cgi

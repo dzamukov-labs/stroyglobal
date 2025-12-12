@@ -1,0 +1,23 @@
+# Конфигурация Jekyll для GitHub Pages
+
+# Исключаем папки и файлы из обработки Jekyll
+exclude:
+  - cgi-bin/
+  - .git/
+  - .gitignore
+  - README.md
+  - tools/
+  - seo-manifest.ndjson
+  - "*.php"
+  - "*.cgi"
+
+# Отключаем обработку некоторых плагинов, которые могут вызывать проблемы
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Базовые настройки
+safe: true
+lsi: false
+incremental: false
+
