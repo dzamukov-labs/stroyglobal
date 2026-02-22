@@ -145,3 +145,290 @@ border: #000 solid 2px;
 /* /Копирайт */
  /* p{text-indent: 1.5em;}  Отступ первой строки */
 #action {text-align: center; font-size: 25px; color: #ff0000}
+
+/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ ===== */
+@media (max-width: 960px) {
+  body {
+    min-width: 0;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  #wrap {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+
+  /* Навигация */
+  .header {
+    height: auto;
+    position: relative;
+  }
+  .menu {
+    position: relative;
+    margin-top: 0;
+    border-radius: 8px;
+  }
+  .menu table,
+  .menu table tbody,
+  .menu table tr,
+  .menu table td {
+    display: block;
+    width: 100%;
+  }
+  .menu a {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 14px 16px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(155,207,242,0.5);
+    text-align: center;
+  }
+  .menu td:first-child a { border-top: none; }
+  .menu td:last-child a { border-bottom: none; }
+  .menu td:first-child a:hover,
+  .menu td:last-child a:hover {
+    border-radius: 0;
+  }
+
+  .header_bottom { display: none; }
+  .logo { display: none; }
+
+  /* Контент */
+  .content {
+    top: 10px;
+    min-height: auto;
+  }
+  .content h1 {
+    font-size: 18px;
+    line-height: 1.3;
+    word-wrap: break-word;
+  }
+  .square {
+    margin: 15px 0 40px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  /* Подвал */
+  .copyrigh {
+    height: auto;
+    margin-top: 20px;
+  }
+  .copyrigh .basic {
+    width: 100%;
+    height: auto;
+    padding: 16px 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .copyrigh address {
+    float: none;
+    margin: 0 0 12px 0;
+    text-align: center;
+  }
+  .copyrigh ul {
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  .copyrigh ul li {
+    display: inline-block;
+    margin: 4px 8px;
+  }
+  .copyrigh span {
+    font-size: 11px;
+  }
+
+  /* Общие: изображения и таблицы */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  table {
+    max-width: 100%;
+  }
+  iframe {
+    max-width: 100%;
+  }
+
+  /* Каталог: блоки товаров */
+  .block1, .block2 {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .block1 div, .block2 div {
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .block1 dl, .block2 dl {
+    height: auto;
+    padding: 10px;
+  }
+  .action {
+    margin-left: auto;
+    margin-top: -30px;
+    position: absolute;
+    right: 10px;
+  }
+
+  /* Меню категорий (бани/дома) */
+  .menu-bani {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .menu-bani div {
+    width: 100%;
+  }
+
+  /* Галерея */
+  .menu-galery {
+    float: none;
+    display: inline-block;
+    margin: 0 8px 20px;
+    width: calc(50% - 20px);
+    vertical-align: top;
+  }
+  .menu-galery div {
+    width: 100%;
+  }
+
+  /* Страницы отдельных бань */
+  .poyas img {
+    max-width: 100%;
+    height: auto;
+    margin: 8px 8px 0 0;
+  }
+  .tablebasic table,
+  .tablebasic-1 table {
+    width: 100%;
+    font-size: 13px;
+  }
+  .tablebasic-1 table {
+    width: 100%;
+    height: auto;
+  }
+  .cost {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .stock {
+    float: none;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .vk_comments {
+    float: none;
+    width: 100%;
+  }
+
+  /* Таблицы перевозных бань */
+  .tablebasic2018 table {
+    width: 100%;
+  }
+  .tablebasic2018 table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .table_photo {
+    width: 100%;
+  }
+  .table_photo td {
+    display: block;
+    width: 100%;
+  }
+
+  /* Перевозные бани */
+  .block_bani {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .block_bani img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Контакты */
+  #map {
+    width: 100%;
+    height: 300px;
+  }
+  #map iframe,
+  #map script + div {
+    width: 100% !important;
+  }
+
+  /* VK виджет */
+  #vk_groups {
+    width: 100% !important;
+  }
+  #vk_groups iframe {
+    width: 100% !important;
+  }
+
+  /* Help секции */
+  .section {
+    margin-bottom: 15px;
+  }
+  .section img {
+    display: block;
+    margin: 0 auto 8px;
+  }
+
+  /* Формы */
+  form {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  form .input,
+  form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Ещё уже: телефоны */
+@media (max-width: 480px) {
+  .menu a {
+    font-size: 15px;
+    padding: 12px 10px;
+  }
+  .content h1 {
+    font-size: 16px;
+  }
+  .square {
+    padding: 12px;
+  }
+  .square dl dt {
+    font-size: 20px;
+  }
+  .square .size {
+    font-size: 15px;
+  }
+  .square .cost {
+    font-size: 22px;
+  }
+  .menu-galery {
+    width: 100%;
+    margin: 0 0 16px;
+    display: block;
+  }
+  .copyrigh ul li {
+    display: block;
+    margin: 6px 0;
+  }
+}

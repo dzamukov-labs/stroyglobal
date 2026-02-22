@@ -1,8 +1,20 @@
 User-agent: Yandex
 Allow: /
+Disallow: /send.php
+Disallow: /postmaster.php
+Disallow: /govnoforma.php
+Disallow: /feedback/
+Disallow: /cgi-bin/
+Disallow: /tools/
 Sitemap: https://stroyglobal.com/sitemap.xml
 Host: stroyglobal.com
 
 User-agent: *
 Allow: /
+Disallow: /send.php
+Disallow: /postmaster.php
+Disallow: /govnoforma.php
+Disallow: /feedback/
+Disallow: /cgi-bin/
+Disallow: /tools/
 Sitemap: https://stroyglobal.com/sitemap.xml

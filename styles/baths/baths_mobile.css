@@ -71,3 +71,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', end
 .action img {border: none;}
 
 .vk_comments {float: left;}
+
+@media (max-width: 960px) {
+  .block_bani {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+  }
+  .square .block {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .square .cost,
+  .action_prize {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .action {
+    margin-left: auto;
+    right: 10px;
+  }
+  .tablebasic2018 table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .square img {
+    margin-left: 0;
+  }
+}
