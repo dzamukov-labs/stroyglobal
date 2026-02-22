@@ -1,155 +1,187 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 	<loc>https://stroyglobal.com/</loc>
-	<lastmod>2025-12-12</lastmod>
+	<lastmod>2026-02-22</lastmod>
 	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://stroyglobal.com/index.htm</loc>
-	<lastmod>2025-12-12</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma.htm</loc>
-	<lastmod>2025-12-12</lastmod>
-	<priority>0.9</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/bani.htm</loc>
-	<lastmod>2025-12-12</lastmod>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/doma.htm</loc>
+	<lastmod>2026-02-22</lastmod>
 	<priority>0.9</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/galereya.htm</loc>
-	<lastmod>2025-12-12</lastmod>
+	<lastmod>2026-02-22</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>https://stroyglobal.com/stati.htm</loc>
-	<lastmod>2025-12-12</lastmod>
+	<loc>https://stroyglobal.com/help.htm</loc>
+	<lastmod>2026-02-22</lastmod>
 	<priority>0.7</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/kontakti.htm</loc>
-	<lastmod>2025-12-12</lastmod>
+	<lastmod>2026-02-22</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
+	<loc>https://stroyglobal.com/stati.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/production.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
+</url>
+<!-- Бани из бруса -->
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_1.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_2.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_3.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_4.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_5.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_6.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_7.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_8.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/bani/bani_iz_brusa/banya_iz_brusa_9.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.7</priority>
+</url>
+<!-- Перевозные бани -->
+<url>
+	<loc>https://stroyglobal.com/bani/bani_perevoznie/bani_perevoznie.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.8</priority>
+</url>
+<!-- Галерея -->
+<url>
+	<loc>https://stroyglobal.com/galereya/bani.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/galereya/doma.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/galereya/baza.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/galereya/lestnici.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/galereya/okna.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/galereya/stroitelstvo_doma_1.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/galereya/stroitelstvo_doma_2.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
+</url>
+<!-- Статьи и помощь -->
+<url>
 	<loc>https://stroyglobal.com/stati/dostavka.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/stati/kak_sdelat_zakaz.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://stroyglobal.com/stati/kak_sdelat_zakaz_gotovoi_produkcii.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/stati/shest_prichin.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/stati/pri_sborke_na_uchastke.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
 	<loc>https://stroyglobal.com/stati/dop_raboti.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_1.htm</loc>
+	<loc>https://stroyglobal.com/stati/otzivi.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_2.htm</loc>
+	<loc>https://stroyglobal.com/stati/aktii.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
 </url>
 <url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_3.htm</loc>
+	<loc>https://stroyglobal.com/stati/statya_1.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
 </url>
 <url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_4.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_5.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_6.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_7.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_8.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_9.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_10.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_11.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_12.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_13.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_14.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_15.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_16.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_17.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_18.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_19.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_20.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_21.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_22.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_23.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_24.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_25.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_26.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_27.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_28.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_29.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_30.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_31.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_32.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_33.htm</loc>
-</url>
-<url>
-	<loc>https://stroyglobal.com/doma/dom_iz_brusa_34.htm</loc>
+	<loc>https://stroyglobal.com/stati/statya_2.htm</loc>
+	<lastmod>2026-02-22</lastmod>
+	<priority>0.5</priority>
 </url>
 </urlset>
